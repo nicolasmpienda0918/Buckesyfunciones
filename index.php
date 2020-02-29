@@ -14,7 +14,7 @@ echo("<br>........................................");
 $arreglo=array('usuario1'=>"Juan",'usuario2'=>"Maria",'usuario3'=>"Sandra",'usuario4'=>"Camilo");
 echo("<br>");
 print_r($arreglo);
-echo("<br>");
+echo("<br>........................................");
 
 
 
@@ -23,7 +23,38 @@ echo("<br>");
 $tamamo=count($arreglo);
 echo("<br>");
 echo("El tamaño de mi arreglo es: ".$tamamo);
+echo("<br>........................................");
+
+// bocler fot
+for($centinela=0;$centinela<=10;$centinela++){
+  echo("<br> El valor de centinela es:".$centinela."<br>");
+}
 
 
+// bucle for para recorrer arrglos
+echo("<br>........................................");
+$arreglo=array("Juan","Maria","James","Sandra");
+for($centinela=0;$centinela<count($arreglo);$centinela++){
+    echo("<br>".$arreglo[$centinela]."<br>");
+    }
+
+
+// bucle foreach para recorrer arrglos
+echo("<br>........................................");
+$arreglo=array('usuario1'=>"Juan",'usuario2'=>"Maria",'usuario3'=>"Sandra",'usuario4'=>"Camilo");
+foreach($arreglo as $clave=>$valor){
+    echo"<br>"."La clavees:".$clave;
+    echo"<br>".($valor)."<br>";
+
+}
+
+// bucle foreach para recorrer arrglos indexado
+echo("<br>........................................");
+$arreglo=array("Juan","Maria","James","Sandra");
+
+foreach($arreglo as $clave=>$valor){
+echo "<br> El clave del Cajos es: ".($clave);
+echo "<br> El valor del Cajos es: ".($valor)."<br>";
+}
 
 ?>
