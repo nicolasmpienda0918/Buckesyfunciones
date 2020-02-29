@@ -16,7 +16,4 @@ echo("<br>");
 print_r($arreglo);
 
 
-
-
-
 ?>
