@@ -51,10 +51,28 @@ foreach($arreglo as $clave=>$valor){
 // bucle foreach para recorrer arrglos indexado
 echo("<br>........................................");
 $arreglo=array("Juan","Maria","James","Sandra");
-
 foreach($arreglo as $clave=>$valor){
 echo "<br> El clave del Cajos es: ".($clave);
 echo "<br> El valor del Cajos es: ".($valor)."<br>";
 }
+
+// arreglos multidireccioneal (arreglo de arreglos)
+echo("<br>........................................");
+$usuarios=array(
+    'usuario1'=>array('Nombre'=>"Juan",'Edad'=>29,'Sexo'=>"Masculino"),
+    'usuario2'=>array('Nombre'=>"Maria",'Edad'=>25,'Sexo'=>"Femenino"),
+    'usuario3'=>array('Nombre'=>"Nicolas",'Edad'=>29,'Sexo'=>"Masculino"),
+    'usuario4'=>array('Nombre'=>"Sandra",'Edad'=>32,'Sexo'=>"Femenino")
+    {
+foreach($usuarios $clave=> )
+
+}
+
+
+
+
+
+)
+
 
 ?>
